@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HomePage</title>
+</head>
+<body>
+</header> 
+  <h1>welcome to snowbound adventuers</h1>
+  <p>check out whats on offer</p>
+</header>
+
+  <nav>
+    <a href="index.html">
+    <a href="about.html">About</a>
+  <nav>
+
+  </main>
+    <p>snowbound offers every snow trip you can think of bringing you along for the ride.</p>
+   <button>Learn more</button>
+  </main>
+<footer>
+  <p>snowbound</p>
+</footer>
