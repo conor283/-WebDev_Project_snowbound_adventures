@@ -3,7 +3,9 @@
 <head>
   <abbr title = "snowbound"> visit SNB </abbr>
 </head>
-<body>
+<body> { 
+background colour: light blue;
+}
 </header> 
   <h1>welcome to snowbound adventuers homepage.</h1>
   <p>check out whats on offer</p>
