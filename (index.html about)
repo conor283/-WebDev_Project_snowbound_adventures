@@ -1,0 +1,19 @@
+(!DOCTYPE html) 
+
+<html>
+<head>
+  <title>About me</title>
+</head>
+<header>
+  <h1>get to know about the snow<br>
+  at afforedeable prices.</h1>
+</header>
+
+<h2> adventuers</h2>
+<ul>
+    <li> alps</li>
+</ul>
+
+  <button type ="button">
+    click me 
+  </button>
