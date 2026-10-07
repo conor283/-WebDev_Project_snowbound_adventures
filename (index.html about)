@@ -3,6 +3,9 @@
 <html>
 <head>
 <style>
+body{
+background color:lightblue;
+}
 .p1 {
 font family:times,times new roman,serif;
 }
