@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>HomePage</title>
+  <abbr title = "snowbound"> visit SNB </abbr>
 </head>
 <body>
 </header> 
-  <h1>welcome to snowbound adventuers</h1>
+  <h1>welcome to snowbound adventuers homepage.</h1>
   <p>check out whats on offer</p>
 </header>
 
@@ -15,9 +15,16 @@
   <nav>
 
   </main>
-    <p>snowbound offers every snow trip you can think of bringing you along for the ride.</p>
+    <p>snowbound offers every snow trip you can think of bringing you along for the ride.<br>
+experice the adventuers.</p>
    <button>Learn more</button>
   </main>
 <footer>
-  <p>snowbound</p>
+  <adress>
+written by <a herf ="A00063282@TUDublin.ie">
+conor thornton</a>.<br>
+visit us at :<br>
+<a herf ="snowbound.com">
+</adress>
+
 </footer>
