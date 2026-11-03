@@ -1,39 +1,173 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-.button {
-background color:white;
-border:none;
-text align:center;
-font size:16px;
-}
-  <abbr title = "snowbound"> visit SNB </abbr>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snowbound - Snow Travel</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f7fc;
+            color: #243447;
+        }
+
+        header {
+            background-color: #12304a;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+            url('https://images.unsplash.com/photo-1517299321609-52687d1bc55a');
+            background-size: cover;
+            background-position: center;
+            height: 450px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 45px;
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        .destinations {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            width: 280px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            color: #12304a;
+        }
+
+        .card p {
+            padding: 0 15px 15px;
+        }
+
+        .about {
+            background-color: #dceefa;
+            padding: 40px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #12304a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        a:hover {
+            color: #8bd3f7;
+        }
+    </style>
 </head>
-<body> { 
-background colour: light blue;
-}
-</header> 
-  <h1 style = border: "2px soild tomato;" welcome to snowbound adventuers homepage.</h1>
-  <p>check out whats on offer</p>
-</header>
 
-  <nav>
-    <a href="index.html">
-    <a href="about.html">About</a>
-  <nav>
+<body>
 
-  </main>
-    <p>snowbound offers every snow trip you can think of bringing you along for the ride.<br>
-experice the adventuers.</p>
-   <button>Learn more</button>
-  </main>
-<footer>
-  <adress>
-written by <a herf ="A00063282@TUDublin.ie">
-conor thornton</a>.<br>
-visit us at :<br>
-<a herf ="snowbound.com">
-</adress>
+    <header>
+        <h1>❄ SNOWBOUND</h1>
 
-</footer>
+        <nav>
+            <a href="#home">Home</a>
+            
+            <a href="#about">About Us</a>
+            
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div>
+            <h2>Discover Your Winter Adventure</h2>
+            <p>Explore the world's most beautiful snowy destinations.</p>
+        </div>
+    </section>
+
+    <section class="destinations" id="destinations">
+        <h2>Popular Snow Destinations</h2>
+        <p>Find your next winter getaway.</p>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba">
+                <h3>Swiss Alps</h3>
+                <p>Experience breathtaking mountains and world-class skiing.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606">
+                <h3>French Alps</h3>
+                <p>Enjoy amazing ski resorts and beautiful winter scenery.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1517299321609-52687d1bc55a">
+                <h3>Lapland</h3>
+                <p>Discover snowy forests, husky rides and the Northern Lights.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About Snowbound</h2>
+        <p>
+            Snowbound is your guide to unforgettable winter holidays.
+            We help travellers discover snowy destinations, exciting
+            activities and amazing winter experiences.
+        </p>
+    </section>
+
+    <footer id="contact">
+        <h3>SNOWBOUND ❄</h3>
+        <p>Explore More. Experience Winter.</p>
+        <p>Contact: info@snowbound.com</p>
+        <p>© 2026 Snowbound. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
