@@ -1,1 +1,61 @@
-style.css
+
+/* General website style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f7fc;
+    color: #243447;
+}
+
+/* Header */
+header {
+    background-color: #12304a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background-color: #245575;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+/* Main heading */
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    color: #12304a;
+    text-align: center;
+}
+
+/* Images */
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Main content */
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #12304a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
