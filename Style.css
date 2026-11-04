@@ -58,4 +58,19 @@ footer {
     text-align: center;
     padding: 20px;
 }
+nav {
+    background-color: #12304a;
+    padding: 20px;
+    text-align: center;
+}
 
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: lightblue;
+}
