@@ -7,7 +7,7 @@ background-color: blue;
 div{
 background-color: blue;
 }
-    @media (orientation: landscape), (max-width: >1200) {
+    @media (orientation: landscape), (max-width: >1200px) {
 div{
 background-color: blue;
 }
