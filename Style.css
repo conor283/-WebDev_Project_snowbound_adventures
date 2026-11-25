@@ -145,7 +145,7 @@ button {
 }
 
 button:hover {
-    background-color: #105b78;
+    background-color: light blue;
 }
 
 input, select {
