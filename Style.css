@@ -140,6 +140,10 @@ input, select {
     margin: 10px 0 20px;
     width: 90%;
 }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
 
 footer {
     background-color: #102f43;
