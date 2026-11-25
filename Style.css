@@ -1,3 +1,17 @@
+@media (orientation: landscape) and (max-width: 600px) {
+div{
+background-color: blue;
+}
+}
+@media (orientation: landscape), (max-width: 600px and 1200px) {
+div{
+background-color: blue;
+}
+    @media (orientation: landscape), (max-width: >1200) {
+div{
+background-color: blue;
+}
+}
 
 /* General website style */
 body {
