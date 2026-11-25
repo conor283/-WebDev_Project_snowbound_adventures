@@ -142,7 +142,7 @@ input, select {
 }
 .flex-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 footer {
