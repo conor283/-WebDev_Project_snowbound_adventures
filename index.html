@@ -14,6 +14,97 @@
 
     <style>
         body {
+           
+            
+<header>
+    <h1>Snow Travel</h1>
+    <p>Discover your perfect winter adventure!</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#booking">Book Now</a>
+</nav>
+
+<section>
+    <h2>Welcome to Snow Travel</h2>
+    <p>Explore the world's best ski resorts and winter destinations.</p>
+    <button onclick="welcomeMessage()">Welcome</button>
+</section>
+
+<section id="destinations">
+    <h2>Find Your Destination</h2>
+
+    <input type="text" id="search"
+    placeholder="Search destinations...">
+
+    <button onclick="searchDestination()">Search</button>
+
+    <div id="results"></div>
+</section>
+
+<section id="booking">
+    <h2>Book Your Winter Holiday</h2>
+
+    <form onsubmit="bookHoliday(event)">
+        <label>Your Name:</label>
+        <input type="text" id="name" required>
+
+        <label>Choose Destination:</label>
+        <select id="destination">
+            <option>Switzerland</option>
+            <option>France</option>
+            <option>Austria</option>
+            <option>Italy</option>
+        </select>
+
+        <label>Number of People:</label>
+        <input type="number" id="people" min="1" max="20" required>
+
+        <button type="submit">Submit Booking</button>
+    </form>
+
+    <p id="confirmation"></p>
+</section>
+
+<footer>
+    <p>Snow Travel © 2026</p>
+</footer>
+
+<script src="JavaScript/script.js"></script>
+</body>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             margin: 0;
             font-family: Arial 
             background-color: #f0f7fc;
